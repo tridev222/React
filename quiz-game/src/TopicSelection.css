@@ -1,0 +1,48 @@
+.topic-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #f8f9fa, #e2e2e2);
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.topic-selection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.topic-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.topic-card {
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background: #81ecec;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.topic-card:hover {
+    background-color: #74b9ff;
+    transform: scale(1.05);
+}
+
+.add-card {
+    background: #ff6b6b;
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

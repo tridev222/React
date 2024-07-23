@@ -1,0 +1,27 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  background-color: #81ecec; /* Primary theme color */
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  color: #ffffff; /* White text color for better contrast */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  background-color: #f0f4f8; /* Light background color for the main container */
+}

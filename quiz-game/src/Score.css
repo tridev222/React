@@ -1,0 +1,87 @@
+/* Center the container of the Score component */
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f4f8;
+    margin: 0;
+  }
+  
+  /* Center the Score card within the container */
+  .score-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for passed and failed states */
+  .score-card.passed {
+    background-color: #d4edda; /* Light green background for passed */
+    border: 1px solid #c3e6cb;
+  }
+  
+  .score-card.failed {
+    background-color: #f8d7da; /* Light red background for failed */
+    border: 1px solid #f5c6cb;
+  }
+  
+  /* Header styling */
+  .score-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Details styling */
+  .score-details {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Additional text styling */
+  .score-text {
+    margin: 10px 0;
+  }
+  
+  /* Button styles */
+  .score-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .restart-button,
+  .home-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .restart-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .restart-button:hover {
+    background-color: #218838;
+  }
+  
+  .home-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+  

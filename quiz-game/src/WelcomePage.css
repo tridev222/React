@@ -1,0 +1,43 @@
+/* WelcomePage.css */
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* Background color for the page */
+}
+
+.welcome-header {
+  text-align: center;
+  color: #333; /* Text color */
+}
+
+.welcome-header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.welcome-header h2 {
+  font-size: 2rem;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.start-quiz-button {
+  margin-top: 20px;
+  padding: 20px 40px; /* Increased size */
+  font-size: 1.5rem; /* Increased font size */
+  color: #fff;
+  background: linear-gradient(45deg, #81ecec, #74b9ff); /* Gradient background */
+  border: none;
+  border-radius: 8px; /* Slightly rounded corners */
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for better visibility */
+}
+
+.start-quiz-button:hover {
+  background: linear-gradient(45deg, #74b9ff, #81ecec); /* Gradient change on hover */
+  transform: scale(1.1); /* Slightly larger on hover */
+}
